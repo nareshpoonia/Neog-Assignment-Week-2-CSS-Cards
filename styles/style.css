@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* || GENERAL STYLES */
+body {
+  background-color: black;
+}
+
+h3 {
+  padding-top: 10px;
+}
+
+p {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+i {
+  padding-right: 15px;
+}
+
+button {
+  color: blue;
+  border: none;
+  background-color: white;
+  padding: 0px 10px;
+}
+
+/* || UTILITIES */
+
+/* || SITEWIDE */
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 500px;
+  height: 500px;
+  margin: 20px;
+  border-radius: 10px 10px;
+}
+.card-image {
+  background-color: indigo;
+  height: 280px;
+  margin-bottom: 15px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.image-1 {
+  background-image: url(/images/hero-image-mobile.jpg);
+  max-inline-size: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.card-content {
+  padding: 10px 10px;
+}
+
+.title {
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.card-buttons {
+  display: inline;
+}
+
+.card-icons {
+  display: inline;
+  padding: 0px 10px;
+  justify-content: flex-end;
+}
