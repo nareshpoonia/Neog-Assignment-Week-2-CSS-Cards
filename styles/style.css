@@ -4,29 +4,35 @@
   box-sizing: border-box;
 }
 
+:root {
+  font-size: 62.5%;
+}
+
 /* || GENERAL STYLES */
 body {
   background-color: black;
 }
 
 h3 {
-  padding-top: 10px;
+  padding-top: 1rem;
 }
 
 p {
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  font-size: 1.5rem;
 }
 
 i {
-  padding-right: 15px;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
 }
 
 button {
   color: blue;
   border: none;
   background-color: white;
-  padding: 0px 10px;
+  padding: 0rem 1rem 0rem 0rem;
 }
 
 /* || UTILITIES */
@@ -44,10 +50,9 @@ button {
   width: 500px;
   height: 500px;
   margin: 20px;
-  border-radius: 10px 10px;
+  border-radius: 1rem 1rem;
 }
 .card-image {
-  background-color: indigo;
   height: 280px;
   margin-bottom: 15px;
   border-radius: 10px 10px 0px 0px;
@@ -62,20 +67,27 @@ button {
 }
 
 .card-content {
-  padding: 10px 10px;
+  padding: 1rem 1rem;
 }
 
 .title {
   justify-content: center;
   align-items: center;
-  margin-bottom: 10px;
+  margin-bottom: 1rem;
 }
+
+.footer {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
 .card-buttons {
   display: inline;
 }
 
 .card-icons {
   display: inline;
-  padding: 0px 10px;
+  padding: 0rem 1rem;
   justify-content: flex-end;
 }
